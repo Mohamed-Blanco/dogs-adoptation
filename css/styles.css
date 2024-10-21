@@ -1,0 +1,207 @@
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 10%;
+}
+.titlefont{
+    
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.subtitlecolor{
+    color: #8f8f8f;
+}
+.subtitlefont{
+
+        font-family: 'Ubuntu', sans-serif;
+    
+}
+.iphoneimage{
+    height: 550px;
+    width: 300px;
+    position: absolute;
+    right : 15%;
+}
+#features{
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+
+}
+
+.iphone{
+    z-index: 1;
+    position: absolute;
+    margin-bottom: 20%; 
+} 
+
+.container-fluid{
+
+   padding-top: 3%;
+   width: 60%;
+
+}
+.iconapple{
+   position: relative;
+   height: 10%;
+   width: 10%;
+   
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+}
+.navbar{
+    padding: auto 0px auto auto;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+.iphoneimage{
+   height: 550px;
+   width: 300px;
+   position: absolute;
+   right : 15%;
+   top: 15%;
+}
+
+
+
+@media ( min-width: 1028px){
+    .iphoneimage{
+        transform: rotate(25deg);
+    }
+}
+
+@media ( max-width: 1028px){
+    .iphoneimage{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    }
+
+#pricing{
+       text-align: center;
+    }
+
+.nav-item{
+    padding: 0px 5%;
+}
+.fa-brands{
+    padding: left 10px;
+}
+.element2{
+    padding: 20% 20%;
+}
+
+.fa-solid{
+    height: 100px;
+    width: 100px;
+}
+.fa-circle-check{
+    font-size: 4em;
+    color: #ff4c68;
+}
+.fa-bullseye{
+    font-size: 4em;
+    color: #ff4c68;
+}
+.fa-heart{
+    font-size: 4em;
+    color: #ff4c68;
+}
+.fa-heart:hover{
+    color: red;
+}
+.fa-solid:hover{
+    color: red;
+}
+.fa-circle-check:hover{
+    color: red;
+}
+
+
+
+
+
+#testimonials{
+    
+    background-color: #ff4c68;
+    text-align: center;
+
+}
+#press{
+    background-color: #ff4c68;
+    padding: 0% 10% 5% 10%;
+    text-align: center;
+    margin: auto;
+}
+
+.Text-center{
+    text-align: center;
+    padding: auto 17% auto 17%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    font-size: 2.5em;
+    color: white;
+}
+
+.Slide-img{
+    border-radius: 100%;
+    height: 45%;
+    width: 17%;
+}
+.Captions{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 3%;
+}
+.container-1-1{
+    padding-top: 7%;
+}
+.item-padding{
+    padding: 10% 17% 0% 17%;
+    margin-bottom: 10%;
+
+}
+.brandimages{
+      width: 90%;
+}
+.Montfont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 17% 10% 17%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+#footer{
+    text-align: center;
+}
+.Downloads{
+    margin-top: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+.Finaltitle{
+    font-size:2.7em;
+}
+.finalicons{
+    padding:2% ;
+}
